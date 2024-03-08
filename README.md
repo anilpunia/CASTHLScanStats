@@ -29,8 +29,8 @@ The `config.properties` file should contain the following parameters:
 
 ## Output
 - `HLLogReport.xlsx`: Excel file containing log analysis results.
-- HLAppsandLOC.csv: File contain AppID, Application Name and Application LOC for all applications in CAST Highlight
-- `HLLogSummaryReport.xlsx`: Excel file containing consolidated log analysis results.
+- `HLAppsandLOC.csv`: File contains AppID, Application Name and Application LOC for all applications in CAST Highlight
+- `HLLogSummaryReport.xlsx`: Excel file containing consolidated log analysis data, including application name, application ID, highligh logfile path, scan start and end times, total scan and upload time, and application LOC. If a scan fails due to an error, only partial information will be accessible; you can filter on 'Error' in total time to determine which failed during the scan.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
